@@ -1,11 +1,17 @@
 {
-  "name": "app-ui",
+  "name": "zf-ui",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "main": "dist/zf-ui-upload.umd.min.js",
+  "author": {
+    "name": "zf",
+    "github":"https://github.com/weizhuren/one-ui"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib":"vue-cli-service build --target lib packages/index.js"
   },
   "dependencies": {
     "core-js": "^3.8.3",
@@ -19,7 +25,9 @@
     "@vue/cli-service": "~5.0.0",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
-    "vue-template-compiler": "^2.6.14"
+    "vue-template-compiler": "^2.6.14",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^8.0.2"
   },
   "eslintConfig": {
     "root": true,

@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1704464859698') format('truetype');
+}
+
+[class*='zl-icon'] {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.zl-icon-home-weixuanzhong:before {
+  content: "\e650";
+}
+
+.zl-icon-Bio-weixuanzhong:before {
+  content: "\e651";
+}
+
+.zl-icon-gerenweixuanzhong:before {
+  content: "\e652";
+}
+
+.zl-icon-shanchu:before {
+  content: "\e659";
+}
+
+.zl-icon-gengduo:before {
+  content: "\e65b";
+}
+
+.zl-icon-tianjia:before {
+  content: "\e65c";
+}
+
+.zl-icon-youhuijuan:before {
+  content: "\e665";
+}
+
+.zl-icon-shangpin:before {
+  content: "\e666";
+}
+
+.zl-icon-liulanliang:before {
+  content: "\e668";
+}
+
+.zl-icon-facebook:before {
+  content: "\e684";
+}
+
+.zl-icon-ins:before {
+  content: "\e685";
+}
+
+.zl-icon-email:before {
+  content: "\e686";
+}
+
+.zl-icon-iPhone:before {
+  content: "\e687";
+}
+
+.zl-icon-tianjia1:before {
+  content: "\e688";
+}
+
+.zl-icon-youtube:before {
+  content: "\e689";
+}
+
+.zl-icon-tiktok:before {
+  content: "\e68a";
+}
+
+.zl-icon-skdin:before {
+  content: "\e68b";
+}
+
+.zl-icon-bianji:before {
+  content: "\e68c";
+}
+
+.zl-icon-fenxiang:before {
+  content: "\e68d";
+}
+
+.zl-icon-fuzhi:before {
+  content: "\e68e";
+}
+

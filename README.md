@@ -1,24 +1,14 @@
-# app-ui
 
-## Project setup
-```
-yarn install
-```
+- 本项目仅作为vue组件封装的练习参考
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+- 初始化vue项目
+  vue created demo
 
-### Compiles and minifies for production
-```
-yarn build
-```
+- 安装组件库
+  npm add zl-ui
 
-### Lints and fixes files
-```
-yarn lint
-```
+- 全局导入
+  import OneUI form 'zl-ui'
+  import 'zl-ui/lib/zl.css'
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+  Vue.use(ZlUI)
